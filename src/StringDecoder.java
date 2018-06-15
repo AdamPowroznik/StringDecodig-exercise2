@@ -2,7 +2,7 @@
 	
 public class StringDecoder {
 		public static void main(String[] args) {
-				String stringToDecode1 = "13 PUSH 7 PUSH POP 3 8\t9 PUSH + 0 PUSH 8 PUSH POP - 3 PUSH 7 PUSH 8 POP";
+				String stringToDecode1 = "13 PUSH 7 PUSH POP 3 8 9 PUSH + 0 PUSH 8 PUSH POP - 3 PUSH 7 PUSH 8 POP";
 				System.out.println("Top value of the stack is: "+Solution(stringToDecode1));
 				System.out.println("\n\n\n");
 				
